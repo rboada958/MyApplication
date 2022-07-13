@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">ChuckNorris</string>
+    <string name="app_name">My Application</string>
     <string name="connectivity_exception" translatable="false">"No network available, please check your WiFi or Data connection"</string>
 </resources>
