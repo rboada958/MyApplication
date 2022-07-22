@@ -32,7 +32,7 @@ class RetrofitModule {
             .addCallAdapterFactory(ApiResponseCallAdapterFactory.create())
             .addCallAdapterFactory(RxJava2CallAdapterFactory.createWithScheduler(Schedulers.io()))
             .client(okHttpClient)
-            .baseUrl("https://api.chucknorris.io")
+            .baseUrl("https://content.guardianapis.com")
             .build()
     }
 }

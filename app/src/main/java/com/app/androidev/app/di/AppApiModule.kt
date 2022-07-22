@@ -1,6 +1,6 @@
 package com.app.androidev.app.di
 
-import com.app.androidev.app.networks.api.RandomApi
+import com.app.androidev.app.networks.api.NewsApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -12,5 +12,5 @@ import retrofit2.Retrofit
 class AppApiModule {
 
     @Provides
-    fun provideRandomApi(retrofit: Retrofit) : RandomApi = retrofit.create(RandomApi::class.java)
+    fun provideNewsApi(retrofit: Retrofit) : NewsApi = retrofit.create(NewsApi::class.java)
 }
